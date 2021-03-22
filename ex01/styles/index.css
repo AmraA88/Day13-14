@@ -1,0 +1,30 @@
+body, html {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+#gallery {
+    width:984px;
+    height:492px;
+}
+
+
+.gallery{
+    float: left;
+    width: 20%;
+    margin: 5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+    border:none;
+
+       
+}
+
+img
+    {
+        width: 200px;
+        height: auto;
+    }
